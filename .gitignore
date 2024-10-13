@@ -1,24 +1,52 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+.build/
+
 # Logs
-logs
+logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+Desktop.ini
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swp*
+*.swo
+*.swo*
+
+# NPM/Yarn lock files (if using yarn, uncomment below)
+package-lock.json
+# yarn.lock
+
+# Other
+npm-debug.log*
+yarn-error.log
